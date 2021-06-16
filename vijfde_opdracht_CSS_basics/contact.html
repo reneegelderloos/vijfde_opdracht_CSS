@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Contact </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact</h1>
+    </header>
+    <nav>
+        <ul class="navigatie">
+            <li class="menu"><a href="index.html">Home</a></li>
+            <li class="menu"><a href="about.html">Over</a></li>
+            <li class="menu"> <a class="active" href="contact.html">Contact</a></li>
+            <li class="menu"> <a href="#Pagina4">Pagina4</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div>
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                    <label>Naam:
+                        <input name="naam" type="text" />
+                    </label>
+                </p>
+                <p>
+                    <label>E-mail:
+                        <input name="email" type="email" />
+                    </label>
+                </p>
+                <p>
+                    <label>Telefoonnummer:
+                        <input name="Telefoonnummer" type="tel" />
+                    </label>
+                </p>
+                <p>
+                    <label>Geboortedatum:
+                        <input name="Leeftijd" type="date" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input name="gender" type="radio" />Female
+                        <input name="gender" type="radio" />Male
+                    </label>
+                </p>
+                <p>
+                    <label>Favoriete cuisine:
+                        <input name="frans" type="checkbox" />Frans
+                        <input name="italiaans" type="checkbox" />Italiaans
+                        <input name="spaans" type="checkbox" /> Spaans
+                        <input name="arabisch" type="checkbox" />Arabisch
+                    </label>
+                </p>
+                <p>
+                    <label>Kies je favoriete kleur van short:
+                        <input name="colorpicker" type="color" />
+                    </label>
+                </p>
+                <p>
+                    <label>Biografie:
+                        <textarea name="textarea" rows="10" cols="20"></textarea>
+                    </label>
+                </p>
+                <p>
+                    <label>Upload je laatste recept:
+                        <input name="recept" type="file" />
+                    </label>
+                </p>
+                <p>
+                    <label>Url naar je recepten website
+                        <input name="url" type="url" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input name="reset" type="reset" />
+                    </label>
+                </p>
+                <p>
+                    <input name="submit" type="submit" />
+                </p>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
